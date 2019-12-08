@@ -1,0 +1,13 @@
+# Demo makefile
+
+
+top_srcdir = /home/jedwards/wxWidgets/wxGTK-2.4.2
+top_builddir = $(top_srcdir)
+program_dir = .
+
+PROGRAM=leddemo
+
+OBJECTS=$(PROGRAM).o
+
+include $(top_srcdir)/src/makeprog.env
+
